@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mi primera Web</title>
+    <style>
+        table, th, td{
+            border: 1px solid black
+        }
+    </style>
+</head>
+<body>
+    <h1>Mi primer heading</h1>
+    <h2>Mi segundo heading</h2>
+    <h3>Mi tercer heading</h3>
+    <h4>Mi cuarto heading</h4>
+    <h5>Mi quinto heading</h5>
+    <h6>    prueba numero uno</h6>
+    <p>prueba numero 2 </p>
+    <p>prueba numero 3.</p>
+    <hr>
+    <h2>prueba numero 4</h2>
+    <p>Este texto es <span style="color: rgb(47, 0, 255);">mucho más largo</span> y es para <br> la etiqueta spam</p>
+    <!-- Este texto es un comentario -->
+    <a target="_blank" href="https://www.google.com">Ir a google</a>
+    <hr>
+    <img src="img/siaa.png" width="400"/>
+    <form action="/formulario" method="post">
+        <label for="nombre">Nombre</label>
+        <input  value="Sia" type="text" id="nombre" name="nombre" placeholder="Nombre"/>
+        <br>
+        <label for="apellido">Apellido</label>
+        <input value="Furler" type="text" id="apellido" name="apellido" placeholder="Apellido"/>
+        <br>
+        <label for="comentario">Comentario</label>
+        <textarea cols="50" rows="10" id="comentario" name="comentario" placeholder="Ingrese comentario"></textarea>
+        <br>
+        <button type="button">Tipo boton</button>
+        <button type="reset">Tipo reset</button>
+        <button type="submit">TIpo submit</button>
+    </form>
+
+    <!--ul lista no ordenada-->
+    <ul>
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 2</li>
+        <li>Elemento 4</li>
+        <li>
+            <ol>
+                <li style="list-style-type: lower-alpha;">Sub elemento 1</li>
+                <li style="list-style-type: lower-alpha;">Sub elemento 2</li>
+                <li style="list-style-type: lower-alpha;">sub elemento 3</li>
+            </ol>
+        </li>
+    </ul>
+    <!--ol lista ordenada-->
+    <ol>
+        <li value="50">Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 2</li>
+        <li>Elemento 4</li>
+    </ol>
+
+    <!--Tablas-->
+    <table style="width: 500px;">
+        <thead>
+            <tr>
+                <th>Producto</th>
+                <th>Precio</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Playera</td>
+                <td>Q.20.90</td>
+            </tr>
+            <tr>
+                <td>Gorra</td>
+                <td>Q.30.90</td>
+            </tr>
+            <tr>
+                <td>Sudadera</td>
+                <td>Q.25.80</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <td>Total:</td>
+            <td>Q.77.60</td>
+        </tfoot>
+    </table>
+</body>
+</html>
